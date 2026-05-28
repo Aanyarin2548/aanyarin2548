@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withlain | Welcome Home</title>
+    <!-- ใช้ฟอนต์น่ารัก อบอุ่น และอ่านง่ายมากๆ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400;500;600&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Anuphan', sans-serif;
+            /* ปรับพื้นหลังเป็นสีเขียวมิ้นต์พาสเทลจางๆ สบายตามาก */
+            background: linear-gradient(135deg, #f4f9f4 0%, #eef5ee 100%); 
+            color: #4e594e; /* สีเทาอมเขียวเข้ม นุ่มนวลกว่าสีดำ */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.95); /* สีขาวคลีนๆ นุ่มนวล */
+            max-width: 440px;
+            width: 100%;
+            padding: 45px 30px;
+            border-radius: 30px;
+            /* เงาฟุ้งๆ บางเบา ไม่หนาทึบ */
+            box-shadow: 0 15px 35px rgba(180, 195, 180, 0.2); 
+            text-align: center;
+            border: 1px solid #e2eee2;
+        }
+        .logo {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 3rem;
+            font-weight: 600;
+            color: #6b8e6b; /* สีเขียวใบไม้แบบพาสเทล ดูเป็นมิตร */
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+        .subtitle {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #a4bfa4;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #fff0eb; /* สีพีชพาสเทล อบอุ่นและน่ารัก */
+            color: #dd8469;
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.5;
+            color: #384238;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #6a756a;
+            margin-bottom: 35px;
+        }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 16px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.25s ease-image;
+        }
+        .btn-primary {
+            background-color: #6b8e6b; /* สีเขียวพาสเทลหลัก */
+            color: #ffffff;
+            box-shadow: 0 5px 15px rgba(107, 142, 107, 0.2);
+        }
+        .btn-primary:hover {
+            background-color: #5a7a5a;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background-color: #ffffff;
+            color: #6b8e6b;
+            border: 2px solid #e2eee2;
+        }
+        .btn-secondary:hover {
+            background-color: #f4f9f4;
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 35px;
+            font-size: 0.75rem;
+            color: #b3c2b3;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- โลโก้แบรนด์มู้ดเกาหลี -->
+        <div class="logo">Withlain</div>
+        <div class="subtitle">book space & club</div>
+        
+        <!-- สถานะน่ารักๆ -->
+        <div class="badge">✿ กำลังเตรียมเปิดบ้านช็อปปิ้ง ✿</div>
+        
+        <!-- ข้อความต้อนรับเข้าถึงง่าย -->
+        <h2>พื้นที่ส่งต่อหนังสือ<br>ของคนรักการอ่าน 📚✨</h2>
+        <p>ยินดีต้อนรับเข้าสู่คอมมูนิตี้ฝากขายและแลกเปลี่ยนหนังสือแบบสบายใจ ชิลๆ เหมือนนั่งอ่านหนังสือบ้านเพื่อน เร็วๆ นี้เจอกันนะคะ!</p>
+        
+        <!-- ปุ่มกด -->
+        <div class="btn-group">
+            <a href="https://www.tiktok.com" target="_blank" class="btn btn-primary">💚 ติดตามพวกเราใน TikTok</a>
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-secondary">👋 ทักทายแอดมิน / สอบถามฝากขาย</a>
+        </div>
+        
+        <div class="footer">© 2026 WITHLAIN. ทุกคนคือเพื่อนรักนักอ่าน</div>
+    </div>
+
+</body>
+</html>
